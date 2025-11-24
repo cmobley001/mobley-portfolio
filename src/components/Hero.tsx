@@ -68,10 +68,10 @@ export default function Hero({
           <div className="flex justify-center pt-8">
             <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 max-w-md shadow-2xl">
               <h2 className="text-2xl font-semibold text-white mb-4">
-                Ready to Start a Project?
+                Want to Grab a Coffee?
               </h2>
               <p className="text-zinc-200 mb-6">
-                Let&apos;s create something amazing together
+                Let&apos;s get together and see how we can get your business on the Web.
               </p>
               <a
                 href={ctaLink}

@@ -49,7 +49,7 @@ export default function Navigation() {
             href="/"
             className="text-xl md:text-2xl font-bold text-zinc-900 dark:text-white hover:text-zinc-600 dark:hover:text-zinc-300 transition-colors"
           >
-            Portfolio
+            Christopher Mobley
           </Link>
 
           {/* Desktop Navigation */}

@@ -90,10 +90,10 @@ export default function Footer() {
               href="/"
               className="text-2xl font-bold text-white hover:text-zinc-300 transition-colors inline-block mb-4"
             >
-              Portfolio
+              Christopher Mobley
             </Link>
             <p className="text-zinc-400 text-sm">
-              Building modern web experiences with passion and precision.
+              Helping local businesses get online.
             </p>
           </div>
 
@@ -137,7 +137,7 @@ export default function Footer() {
         {/* Copyright */}
         <div className="pt-8 border-t border-zinc-800">
           <p className="text-center text-zinc-400 text-sm">
-            © {currentYear} Portfolio. Built with Next.js and Tailwind CSS.
+            © {currentYear} Christopher Mobley. CSCI 31 Portfolio Project.
           </p>
         </div>
       </div>

@@ -35,9 +35,7 @@ export default function About() {
             About Me
           </h2>
           <p className="text-lg md:text-xl text-zinc-600 dark:text-zinc-400 max-w-3xl mx-auto">
-            I&apos;m a passionate web developer dedicated to creating modern,
-            user-friendly web experiences using the latest technologies and best
-            practices.
+            I enjoy working with business owners and helping them get their business on the web. Think of me as the architect and builder of your online business.
           </p>
         </div>
 
@@ -69,10 +67,7 @@ export default function About() {
                 Let&apos;s Build Something Great
               </h3>
               <p className="text-zinc-600 dark:text-zinc-400 mb-6">
-                I&apos;m always excited to work on new projects and collaborate
-                with creative teams. Whether you need a modern web application,
-                a stunning portfolio, or a complete redesign, I&apos;m here to
-                help bring your vision to life.
+                I&apos;m all about supporting local businesses and bringing their ideas to the digital world. Whether you&apos;re starting fresh with your first website, upgrading your online storefront, or giving your brand a modern redesign, I&apos;ll work with you step by step to create a strong online presence that attracts customers and grows your business. Let&apos;s build something great together — right here in our community.
               </p>
               <div className="flex flex-wrap justify-center gap-4 text-sm font-medium text-zinc-700 dark:text-zinc-300">
                 <span className="px-4 py-2 rounded-full bg-white dark:bg-black border border-zinc-300 dark:border-zinc-700">

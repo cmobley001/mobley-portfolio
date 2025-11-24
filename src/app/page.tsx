@@ -10,8 +10,8 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero
-          title="Web Developer & Designer"
-          subtitle="Creating modern, responsive, and user-friendly web experiences with React, Next.js, and cutting-edge technologies"
+          title="Web Developer (But Mostly a Designer)"
+          subtitle="Let's get your business online with modern web technologies so that your business can start getting those conversions!"
         />
         <About />
         <Contact />
