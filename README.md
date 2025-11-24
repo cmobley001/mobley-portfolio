@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CSCI 31 Final Web Project
 
-## Getting Started
+**Author:** Chris Mobley  
+**Course:** CSCI 31  
+**Project:** Final Web Development Project  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Project Overview
+This project is a **portfolio website** built with **Next.js** and **TypeScript**.  
+The primary goal is to gain hands-on experience with modern web development tools and frameworks, while creating a functional and visually appealing portfolio site.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🎯 Purpose
+- Learn and apply **Next.js** for server-side rendering and routing.  
+- Practice **TypeScript** for type safety and maintainable code. (Actually this is outside of the scope of this class, but I am using it anyway.) 
+- Explore modern development workflows including deployment and version control.  
+- Build a portfolio site to showcase projects and skills.  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🚀 Deployment
+The site is deployed via **Vercel**:  
+👉 [mobley-portfolio.vercel.app](https://mobley-portfolio.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💻 Repository
+All source code is available on GitHub:  
+👉 [github.com/cmobley001/mobley-portfolio](https://github.com/cmobley001/mobley-portfolio)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
+- **Next.js** (React framework)  
+- **TypeScript**  
+- **CSS / Tailwind CSS** (optional styling tools)  
+- **Vercel** (deployment platform)  
+- **GitHub** (version control and collaboration)  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📚 Learning Outcomes
+By completing this project, I aim to:  
+- Strengthen my understanding of **React + Next.js** ecosystem.  
+- Improve proficiency in **TypeScript**.  
+- Gain experience deploying production-ready apps with **Vercel**.  
+- Build a foundation for future web development projects.  
+
+---
+
+## 📄 License
+This project is for **academic purposes** as part of CSCI 31 coursework.  
