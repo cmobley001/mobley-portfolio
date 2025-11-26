@@ -3,7 +3,6 @@ import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
-// 1. Import your new Gallery component
 import ProjectGallery from '@/components/ProjectGallery';
 import Link from 'next/link';
 
