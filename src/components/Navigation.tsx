@@ -1,7 +1,7 @@
-"use client";
+'use client';
 
-import { useState, useEffect } from "react";
-import Link from "next/link";
+import { useState, useEffect } from 'react';
+import Link from 'next/link';
 
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -12,34 +12,31 @@ export default function Navigation() {
       setIsScrolled(window.scrollY > 50);
     };
 
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const scrollToSection = (
-    e: React.MouseEvent<HTMLAnchorElement>,
-    sectionId: string
-  ) => {
+  const scrollToSection = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
     e.preventDefault();
     const section = document.getElementById(sectionId);
     if (section) {
-      section.scrollIntoView({ behavior: "smooth" });
+      section.scrollIntoView({ behavior: 'smooth' });
       setIsMobileMenuOpen(false);
     }
   };
 
   const navLinks = [
-    { href: "#hero", label: "Home" },
-    { href: "#about", label: "About" },
-    { href: "#contact", label: "Contact" },
+    { href: '#hero', label: 'Home' },
+    { href: '#about', label: 'About' },
+    { href: '#portfolio', label: 'Portfolio' },
+    { href: '#blog', label: 'Blog' },
+    { href: '#contact', label: 'Contact' },
   ];
 
   return (
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled
-          ? "bg-white/90 dark:bg-black/90 backdrop-blur-md shadow-lg"
-          : "bg-transparent"
+        isScrolled ? 'bg-white/90 dark:bg-black/90 backdrop-blur-md shadow-lg' : 'bg-transparent'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

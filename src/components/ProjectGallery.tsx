@@ -1,23 +1,25 @@
+'use client';
+
 export default function ProjectGallery() {
   const projects = [
     {
       id: 1,
       title: 'Project One',
-      image: '/placeholder.jpg',
+      image: '/placeholder.png',
       desc: 'Description here',
       tech: ['React', 'Tailwind'],
     },
     {
       id: 2,
       title: 'Project Two',
-      image: '/placeholder.jpg',
+      image: '/placeholder.png',
       desc: 'Another amazing project description',
       tech: ['Next.js', 'TypeScript'],
     },
     {
       id: 3,
       title: 'Project Three',
-      image: '/placeholder.jpg',
+      image: '/placeholder.png',
       desc: 'Yet another great project',
       tech: ['Node.js', 'Express'],
     },
