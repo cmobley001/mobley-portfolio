@@ -1,10 +1,159 @@
 import { useMDXComponents } from '@/mdx-components';
 
-# My First Blog Post
+<div className="not-prose mb-12">
+  <div className="hero bg-gradient-to-r from-primary to-secondary text-primary-content rounded-2xl shadow-2xl">
+    <div className="hero-content text-center py-12">
+      <div className="max-w-3xl">
+        <h1 className="text-5xl font-bold mb-4">Chris Mobley</h1>
+        <p className="text-2xl font-light">Web Developer</p>
+      </div>
+    </div>
+  </div>
+</div>
 
-This is a paragraph written in **Markdown**. DaisyUI will automatically style it because we will wrap it in the `prose` class.
+<div className="not-prose space-y-8 mb-12">
+  {/* Experience Section */}
+  <div className="card bg-base-200 shadow-xl">
+    <div className="card-body">
+      <h2 className="card-title text-3xl mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+        </svg>
+        Experience
+      </h2>
+      <div className="space-y-4">
+        <div className="text-lg leading-relaxed">
+          As a front-end web developer, I specialize in creating engaging, responsive, and user-friendly web experiences. 
+          My expertise spans modern JavaScript frameworks and libraries, with a focus on React and Next.js. I'm passionate 
+          about writing clean, maintainable code and staying current with the latest web development trends and best practices.
+        </div>
+        <div className="text-lg leading-relaxed">
+          I bring a unique perspective to development by combining technical proficiency with strong communication skills. 
+          My approach emphasizes collaboration, attention to detail, and a commitment to delivering high-quality solutions 
+          that meet both user needs and business objectives. From crafting intuitive interfaces to optimizing performance, 
+          I strive to create web applications that are both beautiful and functional.
+        </div>
+      </div>
+      <div className="card-actions justify-end mt-4">
+        <div className="badge badge-primary">React</div>
+        <div className="badge badge-primary">Next.js</div>
+        <div className="badge badge-primary">TypeScript</div>
+        <div className="badge badge-primary">Tailwind CSS</div>
+      </div>
+    </div>
+  </div>
 
-- List item 1
-- List item 2
+{/* Academics Section */}
 
-<button className="btn btn-primary">I can even use DaisyUI buttons here!</button>
+{' '}
+
+<div className="card bg-base-200 shadow-xl">
+  <div className="card-body">
+    <h2 className="card-title text-3xl mb-4">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="h-8 w-8 text-secondary"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 14l9-5-9-5-9 5 9 5z"
+        />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"
+        />
+        <path
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth={2}
+          d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"
+        />
+      </svg>
+      Academics
+    </h2>
+    <div className="space-y-4">
+      <div className="text-lg leading-relaxed">
+        I hold a Bachelor of Arts degree with a dual focus in <strong>English</strong> and{' '}
+        <strong>Technical Communication</strong>. This academic foundation has been invaluable in my
+        development career, enabling me to bridge the gap between technical implementation and
+        clear, effective communication.
+      </div>
+      <div className="text-lg leading-relaxed">
+        My studies in English literature developed my critical thinking and analytical skills, while
+        my technical communication training equipped me with the ability to explain complex concepts
+        in accessible ways. This combination allows me to create documentation that developers
+        appreciate, write code that tells a story, and collaborate effectively with cross-functional
+        teams.
+      </div>
+    </div>
+    <div className="card-actions justify-end mt-4">
+      <div className="badge badge-secondary">BA English</div>
+      <div className="badge badge-secondary">Technical Communication</div>
+    </div>
+  </div>
+</div>
+
+{/* Personal Interests Section */}
+
+  <div className="card bg-base-200 shadow-xl">
+    <div className="card-body">
+      <h2 className="card-title text-3xl mb-4">
+        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        Personal Interests
+      </h2>
+      <div className="space-y-4">
+        <div className="text-lg leading-relaxed">
+          When I'm not coding, you'll find me pursuing a diverse range of interests that keep me balanced and inspired:
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-6">
+          <div className="card bg-base-100 shadow-md hover:shadow-xl transition-shadow">
+            <div className="card-body items-center text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-info mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+              </svg>
+              <h3 className="font-bold text-lg">Coding</h3>
+              <p className="text-sm">Exploring new technologies and building side projects</p>
+            </div>
+          </div>
+          <div className="card bg-base-100 shadow-md hover:shadow-xl transition-shadow">
+            <div className="card-body items-center text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-success mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+              </svg>
+              <h3 className="font-bold text-lg">Reading</h3>
+              <p className="text-sm">From technical books to fiction and everything in between</p>
+            </div>
+          </div>
+          <div className="card bg-base-100 shadow-md hover:shadow-xl transition-shadow">
+            <div className="card-body items-center text-center">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 text-warning mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
+              </svg>
+              <h3 className="font-bold text-lg">Bicycling</h3>
+              <p className="text-sm">Staying active and exploring the outdoors on two wheels</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div className="not-prose">
+  <div className="divider"></div>
+  <div className="text-center py-8">
+    <p className="text-lg mb-4">Interested in working together?</p>
+    <a href="/#contact" className="btn btn-primary btn-lg">
+      Get In Touch
+    </a>
+  </div>
+</div>

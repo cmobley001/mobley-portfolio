@@ -12,8 +12,8 @@ export default function BlogIndex() {
           className="card bg-base-100 shadow-xl hover:scale-105 transition-transform"
         >
           <div className="card-body">
-            <h2 className="card-title">My First Post</h2>
-            <p>Click to read about my journey with DaisyUI.</p>
+            <h2 className="card-title">Chris Mobley, Web Developer</h2>
+            <p>Learn about my experience, academics, and personal interests.</p>
             <div className="card-actions justify-end">
               <button className="btn btn-primary">Read More</button>
             </div>
