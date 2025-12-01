@@ -42,9 +42,9 @@ export default function Home() {
                 className="card bg-base-100 shadow-xl hover:scale-105 transition-transform border border-base-200"
               >
                 <div className="card-body">
-                  <div className="badge badge-primary mb-2">Tutorial</div>
+                  <div className="badge badge-primary mb-2">Blog</div>
                   <h3 className="card-title">My First Post</h3>
-                  <p>A look at how I built this site using Next.js and DaisyUI.</p>
+                  <p>Some information about myself.</p>
                   <div className="card-actions justify-end">
                     <button className="btn btn-sm btn-ghost">Read Article →</button>
                   </div>
