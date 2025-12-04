@@ -62,6 +62,8 @@ By completing this project, I aim to:
 
 This project is for **academic purposes** as part of CSCI 31 coursework.
 
-## 🛠️ Dev Note
+## 🛠️ Dev Notes
 
 Added DaisyUI to the mix, which works well with Tailwind. I prefer the syntax structure. (Yes, I still use Bootstrap).
+
+12/3/2025: Rremoved the modals and added dynamic routing to the portfolio section. Now when a user clicks the View Details link it will open up the case study page.

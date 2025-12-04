@@ -12,6 +12,7 @@
   - Implement modal components for project previews
   - Integrate with existing home/landing page layout
   - Ensure responsive design and smooth animations
+  - this has been REMOVED!
 
 - [x] **Add Blog Post**
   - Create a blog component/page
@@ -26,6 +27,7 @@
 - Integrate new functionality into the existing Next.js + TypeScript structure
 - Test across devices for responsiveness and accessibility
 - Commit changes incrementally and push to GitHub for version tracking
+- 12/3/2025 Reomved the modals and went with dynamic routing so that portfoilio page opens on click.
 
 ---
 
