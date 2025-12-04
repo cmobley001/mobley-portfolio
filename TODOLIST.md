@@ -18,6 +18,7 @@
   - Create a blog component/page
   - Add functionality for rendering posts (Markdown or CMS integration)
   - Style posts for readability and consistency with site theme
+  - 12/3/2025 Note! Need to add a 'back to' link to return user to landing page Blog section
 
 ---
 

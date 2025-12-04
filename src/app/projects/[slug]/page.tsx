@@ -57,7 +57,6 @@ export default async function ProjectPage({ params }: PageProps) {
           </Link>
         </div>
         <div className="mb-8">
-          {/* FIXED: Changed text-gray-900 to text-white */}
           <h1 className="text-4xl font-bold text-white mb-4">{project.title}</h1>
           <div className="flex flex-wrap gap-2 mb-6">
             {project.technologies.map((tech) => (
