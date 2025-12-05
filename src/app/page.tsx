@@ -14,7 +14,7 @@ export default function Home() {
         {/* HERO SECTION */}
         <Hero
           title="Code by Design"
-          subtitle="Crafting a successful website for better conversion rates.."
+          subtitle="Crafting a successful website for better conversion rates."
         />
 
         {/* ABOUT SECTION */}
