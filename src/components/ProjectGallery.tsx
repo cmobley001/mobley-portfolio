@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { projects } from '@/data/projects'; // Importing your shared data
+import { projects } from '@/data/projects';
 
 export default function ProjectGallery() {
   return (
@@ -12,27 +12,24 @@ export default function ProjectGallery() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project) => (
-            <div key={project.slug} className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300">
-              
+            <div
+              key={project.slug}
+              className="card bg-base-100 shadow-xl hover:shadow-2xl transition-shadow duration-300"
+            >
               {/* Image Section */}
               <figure className="relative h-48 w-full">
-                {/* using standard img tag here for simplicity, or switch to Next Image if you prefer */}
-                <img 
-                  src={project.imageUrl} 
-                  alt={project.title} 
+                <img
+                  src={project.imageUrl}
+                  alt={project.title}
                   className="w-full h-full object-cover"
                 />
               </figure>
 
               <div className="card-body">
-                <h2 className="card-title text-xl">
-                  {project.title}
-                </h2>
-                
+                <h2 className="card-title text-xl">{project.title}</h2>
+
                 {/* Truncated description for the card */}
-                <p className="line-clamp-3 text-sm text-base-content/70">
-                  {project.description}
-                </p>
+                <p className="line-clamp-3 text-sm text-base-content/70">{project.description}</p>
 
                 {/* Tags */}
                 <div className="flex flex-wrap gap-2 mt-3">
@@ -42,16 +39,14 @@ export default function ProjectGallery() {
                     </span>
                   ))}
                   {project.technologies.length > 3 && (
-                    <span className="badge badge-ghost text-xs">+{project.technologies.length - 3}</span>
+                    <span className="badge badge-ghost text-xs">
+                      +{project.technologies.length - 3}
+                    </span>
                   )}
                 </div>
 
                 <div className="card-actions justify-end mt-4">
-                  {/* The Critical Link: This now matches your [slug] folder */}
-                  <Link 
-                    href={`/projects/${project.slug}`} 
-                    className="btn btn-primary btn-sm"
-                  >
+                  <Link href={`/projects/${project.slug}`} className="btn btn-primary btn-sm">
                     View Details
                   </Link>
                 </div>
