@@ -36,4 +36,5 @@
 
 - Verify updates locally
 - Deploy changes via **Vercel** after testing
+- Get form working
 - Confirm live updates at: [mobley-portfolio.vercel.app](https://mobley-portfolio.vercel.app/)

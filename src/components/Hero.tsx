@@ -31,7 +31,6 @@ export default function Hero({
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <div className="relative w-full h-full bg-linear-to-br from-zinc-900 via-zinc-800 to-zinc-900">
-          {/* Placeholder gradient background - Replace with actual image when available */}
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(59,130,246,0.1),transparent_50%)]" />
           <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_50%,rgba(168,85,247,0.1),transparent_50%)]" />
           <Image
@@ -48,8 +47,8 @@ export default function Hero({
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <div className="space-y-8">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center min-h-screen flex flex-col justify-center">
+        <div className="space-y-8 flex-1 flex flex-col justify-center">
           {/* Main Heading */}
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
             {title}
@@ -61,7 +60,7 @@ export default function Hero({
           </p>
 
           {/* CTA Card */}
-          <div className="flex justify-center pt-8">
+          <div className="flex justify-center pt-8 relative z-20">
             <div className="bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl p-8 max-w-md shadow-2xl">
               <h2 className="text-2xl font-semibold text-white mb-4">Want to Grab a Coffee?</h2>
               <p className="text-zinc-200 mb-6">
@@ -79,7 +78,7 @@ export default function Hero({
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-10">
           <a
             href="#about"
             onClick={(e) => scrollToSection(e, 'about')}
