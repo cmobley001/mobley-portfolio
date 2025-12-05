@@ -13,8 +13,8 @@ export default function Home() {
       <main>
         {/* HERO SECTION */}
         <Hero
-          title="Web Developer (But Mostly a Designer)"
-          subtitle="Let's get your business online with modern web technologies."
+          title="Code by Design"
+          subtitle="Crafting a successful website for better conversion rates.."
         />
 
         {/* ABOUT SECTION */}
