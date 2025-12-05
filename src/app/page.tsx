@@ -36,7 +36,7 @@ export default function Home() {
           <div className="container mx-auto px-4">
             <h2 className="text-4xl font-bold text-center mb-10">Latest Thoughts</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              {/* BLOG CARD 1: Links to your MDX slug */}
+              {/* BLOG CARD 1: Links to MDX slug */}
               <Link
                 href="/blog/my-first-post"
                 className="card bg-base-100 shadow-xl hover:scale-105 transition-transform border border-base-200"

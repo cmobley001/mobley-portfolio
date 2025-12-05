@@ -31,7 +31,6 @@ export default async function ProjectPage({ params }: PageProps) {
   return (
     <div className="min-h-screen py-16 px-4 sm:px-6 lg:px-8 bg-base-300">
       {' '}
-      {/* Added bg-base-300 for contrast if needed */}
       <div className="max-w-4xl mx-auto">
         {/* Back Button */}
         <div className="mb-6">
@@ -62,7 +61,6 @@ export default async function ProjectPage({ params }: PageProps) {
             {project.technologies.map((tech) => (
               <span
                 key={tech}
-                // OPTIONAL: Switched to a darker blue background with light text for better contrast
                 className="px-3 py-1 bg-blue-900 text-blue-100 rounded-full text-sm font-medium"
               >
                 {tech}
@@ -82,7 +80,6 @@ export default async function ProjectPage({ params }: PageProps) {
         </div>
 
         <div className="prose prose-lg max-w-none mb-8 prose-invert">
-          {/* FIXED: Changed text-gray-700 to text-gray-300 (light gray) */}
           <p className="text-gray-300 leading-relaxed">{project.description}</p>
         </div>
 
@@ -91,7 +88,6 @@ export default async function ProjectPage({ params }: PageProps) {
             href={project.repoLink}
             target="_blank"
             rel="noopener noreferrer"
-            // FIXED: Added a white border so the button stands out more
             className="inline-flex items-center px-6 py-3 bg-gray-800 text-white border border-gray-600 font-medium rounded-lg hover:bg-gray-700 transition-colors"
           >
             View on GitHub
