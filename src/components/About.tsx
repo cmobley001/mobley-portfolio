@@ -44,7 +44,7 @@ export default function About() {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className="group p-8 rounded-2xl bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 hover:border-zinc-300 dark:hover:border-zinc-700 transition-all duration-300 hover:shadow-xl"
+              className="group p-8 rounded-2xl bg-zinc-50 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800 hover:border-zinc-300 dark:hover:border-zinc-700 transition-all duration-300 hover:shadow-md"
             >
               <div className="text-4xl mb-4 group-hover:scale-110 transition-transform duration-300">
                 {skill.icon}
@@ -93,3 +93,4 @@ export default function About() {
     </section>
   );
 }
+
